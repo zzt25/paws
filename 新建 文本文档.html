@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsential - 科学养宠专家</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Comic Sans MS', cursive;
+        }
+
+        body {
+            background: #FFF5E6;
+            background-image: url('https://i.postimg.cc/50Q15FJ1/4.png');
+        }
+
+        header {
+            background: #DFEEEB;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px dashed #FF69B4;
+        }
+
+        .logo {
+            width: 200px;
+            filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.2));
+        }
+
+        .slogan {
+            color: #8B4513;
+            margin-top: 10px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px;
+            gap: 40px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            width: 320px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .product-img {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin: 0 auto;
+            display: block;
+        }
+
+        h2 {
+            color: #FF69B4;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .features {
+            color: #666;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #FFB6C1;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .app-section {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255,255,255,0.9);
+            margin: 40px auto;
+            width: 80%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.postimg.cc/t4qRxTmv/0.png" alt="logo" class="logo">
+        <h1 class="slogan">科学养宠 · 情感联结 · 可持续关怀</h1>
+    </header>
+
+    <div class="products">
+        <!-- 智能项卡 -->
+        <div class="product-card">
+            <img src="https://i.postimg.cc/L8kpNMGY/3.jpg" alt="PAWTAG" class="product-img">
+            <h2>PAWTAG 智能项圈</h2>
+            <div class="features">
+                <p>🔹 基础版：GPS定位防丢失<br>
+                   🔹 体温/心率实时监测<br>
+                   🔹 运动量分析<br>
+                   🔹 PRO版：电子围栏警报<br>
+                   🔹 超长续航30天</p>
+            </div>
+        </div>
+
+        <!-- 舒缓喷雾 -->
+        <div class="product-card">
+            <img src="https://i.postimg.cc/C1SdmNvY/2.jpg" alt="PAWMIST" class="product-img">
+            <h2>PAWMIST 舒缓喷雾</h2>
+            <div class="features">
+                <p>🌿 天然草本配方<br>
+                   💆 缓解宠物焦虑情绪<br>
+                   🐾 安全无刺激配方<br>
+                   🌸 淡雅自然香气<br>
+                     便携随身装设计</p>
+            </div>
+        </div>
+
+        <!-- 智能宠物窝 -->
+        <div class="product-card">
+            <img src="https://i.postimg.cc/Qdzp4R5D/1.jpg" alt="PAWCLOUD" class="product-img">
+            <h2>PAWCLOUD 智能窝</h2>
+            <div class="features">
+                <p>🌡️ 智能恒温控制系统<br>
+                   💡 柔光呼吸灯带<br>
+                   🛏️ 记忆棉舒适垫层<br>
+                   📱 APP远程控制<br>
+                   🌞 冬暖夏凉设计</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="app-section">
+        <h2 style="color:#8B4513;">📱 专属智能APP服务</h2>
+        <p>✔️ 云端健康数据存储<br>
+           ✔️ 定制科学养护计划<br>
+           ✔️ 在线兽医咨询<br>
+           ✔️ 会员专属优惠<br>
+           🎁 首年免费订阅服务</p>
+    </div>
+
+    <footer>
+        <p>🐾 关爱流浪动物 🐾<br>
+        📍 中国·北京 | ✉️ contact@pawsential.com</p>
+    </footer>
+</body>
+</html>
